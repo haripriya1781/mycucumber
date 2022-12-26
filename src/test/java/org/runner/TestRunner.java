@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src//test//resources", glue="org.stepdefinition",monochrome=true,dryRun=false,plugin={"json:target/cucumber/cumcumber.json"})
+@CucumberOptions(features="src//test//resources", glue="org.stepdefinition",monochrome=true,dryRun=false,plugin={"json:target/cucumber/cucumber.json"})
 public class TestRunner {
 
 }
